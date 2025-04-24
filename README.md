@@ -42,6 +42,15 @@ Key metrics in the dataset:
 - Visualization tool for exploring team metrics
 - Dynamic comparison of teams across different performance indicators
 - Sortable statistics and graphical representations
+### Visualizations
+![Image](https://github.com/user-attachments/assets/d4de2f31-8485-45b6-8303-a3daa7264840)
+
+![Image](https://github.com/user-attachments/assets/79b6768e-d4ae-4c77-b057-50be303fd99c)
+
+![Image](https://github.com/user-attachments/assets/1d28684c-5bcf-4eff-a758-42014ce81e5a)
+
+![Image](https://github.com/user-attachments/assets/6d473c44-f747-4e58-9434-9d36c3ae87b7)
+
 
 ## Key Findings
 
@@ -69,7 +78,6 @@ Key metrics in the dataset:
 - Matplotlib
 - Seaborn
 - SciPy
-- React (for interactive dashboard)
 
 ### Installation
 ```bash
@@ -79,11 +87,6 @@ git clone https://github.com/yourusername/football-team-analysis.git
 # Install required Python packages
 pip install -r requirements.txt
 
-# For the React dashboard
-cd dashboard
-npm install
-npm start
-```
 
 ### Running the Analysis
 ```bash
