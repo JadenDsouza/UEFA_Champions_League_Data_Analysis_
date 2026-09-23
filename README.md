@@ -103,6 +103,22 @@ The interactive dashboard provides dynamic visualization of team performance met
 - Analyze efficiency and consistency patterns
 - Access detailed team statistics
 
+`index.html` at the repo root is that dashboard, self-contained (data, styles and
+scripts all inline) and ready to deploy as-is.
+
+### Hosting on Vercel
+1. In the Vercel dashboard: **Add New → Project**, import this GitHub repo.
+2. Framework preset: **Other** (static site) — no build command, no install
+   command, output directory left as the repo root. Vercel serves `index.html`
+   automatically.
+3. Deploy. Every push to the connected branch redeploys automatically.
+
+Or from the CLI, from the repo root: `npx vercel --prod`.
+
+See `analysis/ANALYSIS.md` for the data-cleaning notes and measure
+definitions behind the dashboard, and `analysis/UCL_Dashboard_Measures.xlsx`
+for the same measures as a workbook.
+
 ## Future Work
 - Extend analysis to include more teams and leagues
 - Add temporal analysis to track performance changes over seasons
